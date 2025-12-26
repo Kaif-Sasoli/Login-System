@@ -10,14 +10,6 @@
     </user>
     <user>
         <age>12</age>
-        <email>maria@gmail.com</email>
-        <fullName>Maria</fullName>
-        <gender>Female</gender>
-        <password>123456</password>
-        <userId>24</userId>
-    </user>
-    <user>
-        <age>12</age>
         <email>sign@gmail.com</email>
         <fullName>Kaif</fullName>
         <gender>Male</gender>
