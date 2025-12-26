@@ -48,11 +48,14 @@ LoginSystem/
 
 ## 📸 Screenshots
 
-### 🔑 Sign In / Create Account
-![Sign In](SignIn.png)
+### 🔑 Sign In
+![Sign In](src/resource/images/Login.png)
+
+### ➕ Create Account
+![Sign Up](src/resource/images/SignIn.png)
 
 ### 📊 User Dashboard
-![Dashboard](Dashboard.png)
+![Dashboard](src/resource/images/Dashboard.png)
 
 ---
 
