@@ -1,0 +1,24 @@
+LoginSystem License Agreement
+
+Copyright (c) 2025 Kaif Sasoli
+
+By installing, copying, or using this software, you agree to the following terms:
+
+1. Permission is hereby granted to use this software for personal or educational purposes only.
+
+2. You may not:
+   - Sell, distribute, or sublicense this software.
+   - Modify, reverse-engineer, or decompile the software.
+   - Use this software for any commercial purposes without written permission.
+
+3. This software is provided "as is", without any warranties of any kind, either expressed or implied.
+
+4. In no event shall the author be held liable for any damages arising from the use of this software.
+
+5. All rights not explicitly granted in this license are reserved by the author.
+
+If you do not agree with these terms, you must uninstall and not use this software.
+
+Thank you for using LoginSystem.
+
+Kaif Sasoli

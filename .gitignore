@@ -1,0 +1,17 @@
+# Compiled files
+target/
+build/
+out/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log

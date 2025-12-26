@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" spacing="10.0" styleClass="vBox" stylesheets="@../css/createAccount.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginsystem.controller.CreateAccount">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SignInLogo.png" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="25.0" />
+         </VBox.margin>
+      </ImageView>
+      <TextField fx:id="fullNameField" maxWidth="300.0" promptText="Full Name" styleClass="textField" VBox.vgrow="ALWAYS" />
+      <TextField fx:id="emailField" maxWidth="300.0" promptText="Email" styleClass="textField" VBox.vgrow="ALWAYS" />
+      <TextField fx:id="ageField" maxWidth="300.0" promptText="Age" styleClass="textField" />
+      <PasswordField fx:id="passwordField" maxWidth="300.0" promptText="Password" styleClass="textField" VBox.vgrow="ALWAYS" />
+      <HBox maxWidth="300.0" spacing="20.0">
+         <children>
+            <RadioButton id="radioBox" fx:id="maleRadio" mnemonicParsing="false" styleClass="radioBox" text="Male" />
+            <RadioButton id="radioBox" fx:id="femaleRadio" mnemonicParsing="false" styleClass="radioBox" text="Female" />
+         </children>
+      </HBox>
+      <Button id="createAccountButton" fx:id="createAccountButton" maxWidth="300.0" mnemonicParsing="false" onAction="#createAccountButton" prefHeight="40.0" text="Create Account" />
+      <HBox maxWidth="300.0" prefHeight="13.0" prefWidth="300.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="loginPageButton" fx:id="loginPageButton" maxWidth="300.0" mnemonicParsing="false" onAction="#loginPageButton" text="Login" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

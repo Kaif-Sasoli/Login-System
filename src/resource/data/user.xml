@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+    <user>
+        <age>12</age>
+        <email>sasoli@gmail.com</email>
+        <fullName>kaif</fullName>
+        <gender>Male</gender>
+        <password>123456</password>
+        <userId>605</userId>
+    </user>
+    <user>
+        <age>12</age>
+        <email>maria@gmail.com</email>
+        <fullName>Maria</fullName>
+        <gender>Female</gender>
+        <password>123456</password>
+        <userId>24</userId>
+    </user>
+    <user>
+        <age>12</age>
+        <email>sign@gmail.com</email>
+        <fullName>Kaif</fullName>
+        <gender>Male</gender>
+        <password>123456</password>
+        <userId>585</userId>
+    </user>
+</users>
